@@ -36,12 +36,12 @@ def get_default_theme():
         "colorway": [
             "#003f5c", 
             "#ff7c43",
+            "#ffa600",
             "#2f4b7c",  
             "#665191",  
             "#a05195",  
             "#d45087",
             "#f95d6a",
-            "#ffa600"            
         ]  
     }
 
