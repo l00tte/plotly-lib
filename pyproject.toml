@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "plotly-lib"
+version = "0.1.0"
+description = ""
+authors = ["lottedieleman <lotte.dieleman@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+plotly = "^5.24.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
