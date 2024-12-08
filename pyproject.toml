@@ -5,6 +5,7 @@ description = "A custom theme for Plotly graphs"
 authors = ["lottedieleman <lotte.dieleman@gmail.com>"]
 readme = "README.md"
 
+
 [tool.poetry.dependencies]
 python = "^3.11"
 pandas = "^2.2.3"
