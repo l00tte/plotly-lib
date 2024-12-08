@@ -1,6 +1,7 @@
 
 print("themes.py is being loaded!")
 
+#%%
 
 def get_default_theme():
     """
@@ -13,10 +14,10 @@ def get_default_theme():
         "font": {
             "family": "PP Telegraf, Arial",
             "size": 12,
-            "color": "#6de3db"
+            "color": "#f0f0f2"
         },
-        "paper_bgcolor": "#dfeff0",  # Light grey for the paper background
-        "plot_bgcolor": "#365469",   # White for the plotting area background
+        "paper_bgcolor": "#4d4d54",  # Light grey for the paper background
+        "plot_bgcolor": "#4d4d54",   # White for the plotting area background
         "margin": {
             "l": 40,  # Left margin
             "r": 40,  # Right margin
@@ -29,14 +30,19 @@ def get_default_theme():
             "yanchor": "top",
             "font": {
                 "size": 18,
-                "color": "#6de3db"
+                "color": "#f0f0f2"
             }
         },
         "colorway": [
-            "#64a8b0",  # Blue
-            "#29808a",  # Red
-            "#0d444a",  # Green
-            "#012024",  # Purple
-            "#617574"   # Orange
-        ]  # Consistent colors for traces
+            "#003f5c", 
+            "#ff7c43",
+            "#2f4b7c",  
+            "#665191",  
+            "#a05195",  
+            "#d45087",
+            "#f95d6a",
+            "#ffa600"            
+        ]  
     }
+
+
