@@ -2,4 +2,4 @@ To install this package in your local poetry environment, add this to your pypro
 
 
 [tool.poetry.dependencies]
-lib_plotly = { git = "https://github.com/lottedieleman/plotly-lib.git" }
+lib_plotly = { git = "https://github.com/l00tte/plotly-lib.git" }
