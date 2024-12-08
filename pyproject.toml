@@ -4,6 +4,9 @@ version = "0.1.0"
 description = "A custom theme for Plotly graphs"
 authors = ["lottedieleman <lotte.dieleman@gmail.com>"]
 readme = "README.md"
+packages = [
+    { include = "lib_plotly" }  # Include the `lib_plotly` package directory
+]
 
 
 [tool.poetry.dependencies]
